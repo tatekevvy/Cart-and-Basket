@@ -1,0 +1,43 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="20dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="20dp">
+
+    <TextView android:id="@+id/tvViewShoppingCart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#3c00ff"
+        android:gravity="center"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"
+        android:text="@string/shopping_cart"
+        android:textSize="24dp"
+        tools:ignore="SpUsage" />
+
+    <TextView
+        android:id="@+id/tvProductListHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvViewShoppingCart"
+        android:background="#00FF00"
+        android:gravity="center"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"
+        android:text="@string/product_list"
+        android:textAllCaps="true"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        tools:ignore="SpUsage" />
+
+    <ListView
+        android:id="@+id/lvProducts"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/tvProductListHeader"/>
+
+</RelativeLayout>

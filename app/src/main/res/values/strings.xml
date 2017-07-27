@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Cart n Basket</string>
+    <string name="welcome">Welcome</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="clear_cart">clear_cart</string>
+    <string name="shop">shop</string>
+    <string name="shopping_cart">shopping_cart</string>
+    <string name="total_price">total_price</string>
+    <string name="quantity" />
+    <string name="order" />
+    <string name="product_list">Product List</string>
+</resources>
